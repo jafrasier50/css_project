@@ -3,7 +3,8 @@ main {
 }
 
 .background {
-  background: url("../images/plans-background.jpg");
+  background: url("../images/plans-background.jpg") center / cover;
+  filter: grayscale(40%);
   width: 100%;
   height: 100%;
   position: fixed;
@@ -15,6 +16,7 @@ main {
   border: 4px solid #0e4f1f;
   border-left: none;
   position: relative;
+  z-index: 1;
 }
 .package:hover,
 .package:active {
