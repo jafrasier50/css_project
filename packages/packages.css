@@ -33,6 +33,7 @@ main {
 .package:active {
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
   border-color: #ff5454;
+  transition: 0.3s ease-out;
 }
 
 .package a {
@@ -52,7 +53,7 @@ main {
   background-color: #ff5454;
   padding: 0.5rem;
   border-radius: 5px;
-  transform: rotateZ(45deg) translateX(3.6rem) translateY(-1rem);
+  transform: rotate(45deg) translate(3.6rem, -1rem);
   transform-origin: center;
   width: 12rem;
   text-align: center;
